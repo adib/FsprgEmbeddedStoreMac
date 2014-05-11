@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C025C57116EC174500197671 /* FSEmbeddedStore-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = C025C57016EC174500197671 /* FSEmbeddedStore-Prefix.pch */; };
+		C091A98716EB8C0400146C6D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0FEBCB316EB89A000233CDA /* Cocoa.framework */; };
+		C091A99116EB8C0E00146C6D /* FsprgEmbeddedStore.h in Headers */ = {isa = PBXBuildFile; fileRef = C0FEBCC716EB8A0400233CDA /* FsprgEmbeddedStore.h */; };
+		C091A99216EB8C0E00146C6D /* FsprgEmbeddedStoreController.h in Headers */ = {isa = PBXBuildFile; fileRef = C0FEBCC816EB8A0400233CDA /* FsprgEmbeddedStoreController.h */; };
+		C091A99316EB8C0E00146C6D /* FsprgEmbeddedStoreController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FEBCC916EB8A0400233CDA /* FsprgEmbeddedStoreController.m */; };
+		C091A99416EB8C0E00146C6D /* FsprgEmbeddedStoreDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = C0FEBCCA16EB8A0400233CDA /* FsprgEmbeddedStoreDelegate.h */; };
+		C091A99516EB8C0E00146C6D /* FsprgOrderDocumentRepresentation.h in Headers */ = {isa = PBXBuildFile; fileRef = C0FEBCCB16EB8A0400233CDA /* FsprgOrderDocumentRepresentation.h */; };
+		C091A99616EB8C0E00146C6D /* FsprgOrderDocumentRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FEBCCC16EB8A0400233CDA /* FsprgOrderDocumentRepresentation.m */; };
+		C091A99716EB8C0E00146C6D /* FsprgOrderView.h in Headers */ = {isa = PBXBuildFile; fileRef = C0FEBCCD16EB8A0400233CDA /* FsprgOrderView.h */; };
+		C091A99816EB8C0E00146C6D /* FsprgOrderView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FEBCCE16EB8A0400233CDA /* FsprgOrderView.m */; };
+		C091A99916EB8C0E00146C6D /* FsprgStoreParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = C0FEBCCF16EB8A0400233CDA /* FsprgStoreParameters.h */; };
+		C091A99A16EB8C0E00146C6D /* FsprgStoreParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FEBCD016EB8A0400233CDA /* FsprgStoreParameters.m */; };
+		C091A9A216EB8C9600146C6D /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0FEBCF016EB8A2100233CDA /* WebKit.framework */; };
+		C091A9A316EB8CA200146C6D /* FsprgFileDownload.h in Headers */ = {isa = PBXBuildFile; fileRef = C0FEBCD216EB8A0400233CDA /* FsprgFileDownload.h */; };
+		C091A9A416EB8CA200146C6D /* FsprgFileDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FEBCD316EB8A0400233CDA /* FsprgFileDownload.m */; };
+		C091A9A516EB8CA200146C6D /* FsprgFulfillment.h in Headers */ = {isa = PBXBuildFile; fileRef = C0FEBCD416EB8A0400233CDA /* FsprgFulfillment.h */; };
+		C091A9A616EB8CA200146C6D /* FsprgFulfillment.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FEBCD516EB8A0400233CDA /* FsprgFulfillment.m */; };
+		C091A9A716EB8CA200146C6D /* FsprgLicense.h in Headers */ = {isa = PBXBuildFile; fileRef = C0FEBCD616EB8A0400233CDA /* FsprgLicense.h */; };
+		C091A9A816EB8CA200146C6D /* FsprgLicense.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FEBCD716EB8A0400233CDA /* FsprgLicense.m */; };
+		C091A9A916EB8CA200146C6D /* FsprgOrder.h in Headers */ = {isa = PBXBuildFile; fileRef = C0FEBCD816EB8A0400233CDA /* FsprgOrder.h */; };
+		C091A9AA16EB8CA200146C6D /* FsprgOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FEBCD916EB8A0400233CDA /* FsprgOrder.m */; };
+		C091A9AB16EB8CA200146C6D /* FsprgOrderItem.h in Headers */ = {isa = PBXBuildFile; fileRef = C0FEBCDA16EB8A0400233CDA /* FsprgOrderItem.h */; };
+		C091A9AC16EB8CA200146C6D /* FsprgOrderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FEBCDB16EB8A0400233CDA /* FsprgOrderItem.m */; };
+		C0FEBCB416EB89A000233CDA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0FEBCB316EB89A000233CDA /* Cocoa.framework */; };
+		C0FEBCBE16EB89A000233CDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0FEBCBC16EB89A000233CDA /* InfoPlist.strings */; };
+		C0FEBCDC16EB8A0400233CDA /* FsprgEmbeddedStore.h in Headers */ = {isa = PBXBuildFile; fileRef = C0FEBCC716EB8A0400233CDA /* FsprgEmbeddedStore.h */; };
+		C0FEBCDD16EB8A0400233CDA /* FsprgEmbeddedStoreController.h in Headers */ = {isa = PBXBuildFile; fileRef = C0FEBCC816EB8A0400233CDA /* FsprgEmbeddedStoreController.h */; };
+		C0FEBCDE16EB8A0400233CDA /* FsprgEmbeddedStoreController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FEBCC916EB8A0400233CDA /* FsprgEmbeddedStoreController.m */; };
+		C0FEBCDF16EB8A0400233CDA /* FsprgEmbeddedStoreDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = C0FEBCCA16EB8A0400233CDA /* FsprgEmbeddedStoreDelegate.h */; };
+		C0FEBCE016EB8A0400233CDA /* FsprgOrderDocumentRepresentation.h in Headers */ = {isa = PBXBuildFile; fileRef = C0FEBCCB16EB8A0400233CDA /* FsprgOrderDocumentRepresentation.h */; };
+		C0FEBCE116EB8A0400233CDA /* FsprgOrderDocumentRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FEBCCC16EB8A0400233CDA /* FsprgOrderDocumentRepresentation.m */; };
+		C0FEBCE216EB8A0400233CDA /* FsprgOrderView.h in Headers */ = {isa = PBXBuildFile; fileRef = C0FEBCCD16EB8A0400233CDA /* FsprgOrderView.h */; };
+		C0FEBCE316EB8A0500233CDA /* FsprgOrderView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FEBCCE16EB8A0400233CDA /* FsprgOrderView.m */; };
+		C0FEBCE416EB8A0500233CDA /* FsprgStoreParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = C0FEBCCF16EB8A0400233CDA /* FsprgStoreParameters.h */; };
+		C0FEBCE516EB8A0500233CDA /* FsprgStoreParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FEBCD016EB8A0400233CDA /* FsprgStoreParameters.m */; };
+		C0FEBCE616EB8A0500233CDA /* FsprgFileDownload.h in Headers */ = {isa = PBXBuildFile; fileRef = C0FEBCD216EB8A0400233CDA /* FsprgFileDownload.h */; };
+		C0FEBCE716EB8A0500233CDA /* FsprgFileDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FEBCD316EB8A0400233CDA /* FsprgFileDownload.m */; };
+		C0FEBCE816EB8A0500233CDA /* FsprgFulfillment.h in Headers */ = {isa = PBXBuildFile; fileRef = C0FEBCD416EB8A0400233CDA /* FsprgFulfillment.h */; };
+		C0FEBCE916EB8A0500233CDA /* FsprgFulfillment.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FEBCD516EB8A0400233CDA /* FsprgFulfillment.m */; };
+		C0FEBCEA16EB8A0500233CDA /* FsprgLicense.h in Headers */ = {isa = PBXBuildFile; fileRef = C0FEBCD616EB8A0400233CDA /* FsprgLicense.h */; };
+		C0FEBCEB16EB8A0500233CDA /* FsprgLicense.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FEBCD716EB8A0400233CDA /* FsprgLicense.m */; };
+		C0FEBCEC16EB8A0500233CDA /* FsprgOrder.h in Headers */ = {isa = PBXBuildFile; fileRef = C0FEBCD816EB8A0400233CDA /* FsprgOrder.h */; };
+		C0FEBCED16EB8A0500233CDA /* FsprgOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FEBCD916EB8A0400233CDA /* FsprgOrder.m */; };
+		C0FEBCEE16EB8A0500233CDA /* FsprgOrderItem.h in Headers */ = {isa = PBXBuildFile; fileRef = C0FEBCDA16EB8A0400233CDA /* FsprgOrderItem.h */; };
+		C0FEBCEF16EB8A0500233CDA /* FsprgOrderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FEBCDB16EB8A0400233CDA /* FsprgOrderItem.m */; };
+		C0FEBCF116EB8A2100233CDA /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0FEBCF016EB8A2100233CDA /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C025C57016EC174500197671 /* FSEmbeddedStore-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FSEmbeddedStore-Prefix.pch"; sourceTree = "<group>"; };
+		C091A98616EB8C0400146C6D /* FSEmbeddedStore.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = FSEmbeddedStore.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0FEBCB016EB89A000233CDA /* FsprgEmbeddedStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FsprgEmbeddedStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0FEBCB316EB89A000233CDA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C0FEBCB616EB89A000233CDA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C0FEBCB716EB89A000233CDA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C0FEBCB816EB89A000233CDA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C0FEBCBB16EB89A000233CDA /* FSEmbeddedStore-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FSEmbeddedStore-Info.plist"; sourceTree = "<group>"; };
+		C0FEBCBD16EB89A000233CDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C0FEBCC716EB8A0400233CDA /* FsprgEmbeddedStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FsprgEmbeddedStore.h; sourceTree = "<group>"; };
+		C0FEBCC816EB8A0400233CDA /* FsprgEmbeddedStoreController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FsprgEmbeddedStoreController.h; sourceTree = "<group>"; };
+		C0FEBCC916EB8A0400233CDA /* FsprgEmbeddedStoreController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FsprgEmbeddedStoreController.m; sourceTree = "<group>"; };
+		C0FEBCCA16EB8A0400233CDA /* FsprgEmbeddedStoreDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FsprgEmbeddedStoreDelegate.h; sourceTree = "<group>"; };
+		C0FEBCCB16EB8A0400233CDA /* FsprgOrderDocumentRepresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FsprgOrderDocumentRepresentation.h; sourceTree = "<group>"; };
+		C0FEBCCC16EB8A0400233CDA /* FsprgOrderDocumentRepresentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FsprgOrderDocumentRepresentation.m; sourceTree = "<group>"; };
+		C0FEBCCD16EB8A0400233CDA /* FsprgOrderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FsprgOrderView.h; sourceTree = "<group>"; };
+		C0FEBCCE16EB8A0400233CDA /* FsprgOrderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FsprgOrderView.m; sourceTree = "<group>"; };
+		C0FEBCCF16EB8A0400233CDA /* FsprgStoreParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FsprgStoreParameters.h; sourceTree = "<group>"; };
+		C0FEBCD016EB8A0400233CDA /* FsprgStoreParameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FsprgStoreParameters.m; sourceTree = "<group>"; };
+		C0FEBCD216EB8A0400233CDA /* FsprgFileDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FsprgFileDownload.h; sourceTree = "<group>"; };
+		C0FEBCD316EB8A0400233CDA /* FsprgFileDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FsprgFileDownload.m; sourceTree = "<group>"; };
+		C0FEBCD416EB8A0400233CDA /* FsprgFulfillment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FsprgFulfillment.h; sourceTree = "<group>"; };
+		C0FEBCD516EB8A0400233CDA /* FsprgFulfillment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FsprgFulfillment.m; sourceTree = "<group>"; };
+		C0FEBCD616EB8A0400233CDA /* FsprgLicense.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FsprgLicense.h; sourceTree = "<group>"; };
+		C0FEBCD716EB8A0400233CDA /* FsprgLicense.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FsprgLicense.m; sourceTree = "<group>"; };
+		C0FEBCD816EB8A0400233CDA /* FsprgOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FsprgOrder.h; sourceTree = "<group>"; };
+		C0FEBCD916EB8A0400233CDA /* FsprgOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FsprgOrder.m; sourceTree = "<group>"; };
+		C0FEBCDA16EB8A0400233CDA /* FsprgOrderItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FsprgOrderItem.h; sourceTree = "<group>"; };
+		C0FEBCDB16EB8A0400233CDA /* FsprgOrderItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FsprgOrderItem.m; sourceTree = "<group>"; };
+		C0FEBCF016EB8A2100233CDA /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C091A98316EB8C0400146C6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C091A9A216EB8C9600146C6D /* WebKit.framework in Frameworks */,
+				C091A98716EB8C0400146C6D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0FEBCAC16EB89A000233CDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0FEBCF116EB8A2100233CDA /* WebKit.framework in Frameworks */,
+				C0FEBCB416EB89A000233CDA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0FEBCA416EB895E00233CDA = {
+			isa = PBXGroup;
+			children = (
+				C0FEBCF016EB8A2100233CDA /* WebKit.framework */,
+				C0FEBCC616EB89DB00233CDA /* FsprgEmbeddedStore */,
+				C0FEBCB916EB89A000233CDA /* FSEmbeddedStore */,
+				C0FEBCB216EB89A000233CDA /* Frameworks */,
+				C0FEBCB116EB89A000233CDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0FEBCB116EB89A000233CDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0FEBCB016EB89A000233CDA /* FsprgEmbeddedStore.framework */,
+				C091A98616EB8C0400146C6D /* FSEmbeddedStore.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0FEBCB216EB89A000233CDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0FEBCB316EB89A000233CDA /* Cocoa.framework */,
+				C0FEBCB516EB89A000233CDA /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0FEBCB516EB89A000233CDA /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0FEBCB616EB89A000233CDA /* AppKit.framework */,
+				C0FEBCB716EB89A000233CDA /* CoreData.framework */,
+				C0FEBCB816EB89A000233CDA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C0FEBCB916EB89A000233CDA /* FSEmbeddedStore */ = {
+			isa = PBXGroup;
+			children = (
+				C0FEBCBA16EB89A000233CDA /* Supporting Files */,
+			);
+			path = FSEmbeddedStore;
+			sourceTree = "<group>";
+		};
+		C0FEBCBA16EB89A000233CDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C025C57016EC174500197671 /* FSEmbeddedStore-Prefix.pch */,
+				C0FEBCBB16EB89A000233CDA /* FSEmbeddedStore-Info.plist */,
+				C0FEBCBC16EB89A000233CDA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0FEBCC616EB89DB00233CDA /* FsprgEmbeddedStore */ = {
+			isa = PBXGroup;
+			children = (
+				C0FEBCC716EB8A0400233CDA /* FsprgEmbeddedStore.h */,
+				C0FEBCC816EB8A0400233CDA /* FsprgEmbeddedStoreController.h */,
+				C0FEBCC916EB8A0400233CDA /* FsprgEmbeddedStoreController.m */,
+				C0FEBCCA16EB8A0400233CDA /* FsprgEmbeddedStoreDelegate.h */,
+				C0FEBCCB16EB8A0400233CDA /* FsprgOrderDocumentRepresentation.h */,
+				C0FEBCCC16EB8A0400233CDA /* FsprgOrderDocumentRepresentation.m */,
+				C0FEBCCD16EB8A0400233CDA /* FsprgOrderView.h */,
+				C0FEBCCE16EB8A0400233CDA /* FsprgOrderView.m */,
+				C0FEBCCF16EB8A0400233CDA /* FsprgStoreParameters.h */,
+				C0FEBCD016EB8A0400233CDA /* FsprgStoreParameters.m */,
+				C0FEBCD116EB8A0400233CDA /* Model */,
+			);
+			name = FsprgEmbeddedStore;
+			path = ../FsprgEmbeddedStore;
+			sourceTree = SOURCE_ROOT;
+		};
+		C0FEBCD116EB8A0400233CDA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C0FEBCD216EB8A0400233CDA /* FsprgFileDownload.h */,
+				C0FEBCD316EB8A0400233CDA /* FsprgFileDownload.m */,
+				C0FEBCD416EB8A0400233CDA /* FsprgFulfillment.h */,
+				C0FEBCD516EB8A0400233CDA /* FsprgFulfillment.m */,
+				C0FEBCD616EB8A0400233CDA /* FsprgLicense.h */,
+				C0FEBCD716EB8A0400233CDA /* FsprgLicense.m */,
+				C0FEBCD816EB8A0400233CDA /* FsprgOrder.h */,
+				C0FEBCD916EB8A0400233CDA /* FsprgOrder.m */,
+				C0FEBCDA16EB8A0400233CDA /* FsprgOrderItem.h */,
+				C0FEBCDB16EB8A0400233CDA /* FsprgOrderItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C091A98416EB8C0400146C6D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C091A99116EB8C0E00146C6D /* FsprgEmbeddedStore.h in Headers */,
+				C091A99216EB8C0E00146C6D /* FsprgEmbeddedStoreController.h in Headers */,
+				C091A99416EB8C0E00146C6D /* FsprgEmbeddedStoreDelegate.h in Headers */,
+				C091A99516EB8C0E00146C6D /* FsprgOrderDocumentRepresentation.h in Headers */,
+				C091A99716EB8C0E00146C6D /* FsprgOrderView.h in Headers */,
+				C091A99916EB8C0E00146C6D /* FsprgStoreParameters.h in Headers */,
+				C091A9A316EB8CA200146C6D /* FsprgFileDownload.h in Headers */,
+				C091A9A516EB8CA200146C6D /* FsprgFulfillment.h in Headers */,
+				C091A9A716EB8CA200146C6D /* FsprgLicense.h in Headers */,
+				C091A9A916EB8CA200146C6D /* FsprgOrder.h in Headers */,
+				C091A9AB16EB8CA200146C6D /* FsprgOrderItem.h in Headers */,
+				C025C57116EC174500197671 /* FSEmbeddedStore-Prefix.pch in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0FEBCAD16EB89A000233CDA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0FEBCDC16EB8A0400233CDA /* FsprgEmbeddedStore.h in Headers */,
+				C0FEBCDD16EB8A0400233CDA /* FsprgEmbeddedStoreController.h in Headers */,
+				C0FEBCDF16EB8A0400233CDA /* FsprgEmbeddedStoreDelegate.h in Headers */,
+				C0FEBCE016EB8A0400233CDA /* FsprgOrderDocumentRepresentation.h in Headers */,
+				C0FEBCE216EB8A0400233CDA /* FsprgOrderView.h in Headers */,
+				C0FEBCE416EB8A0500233CDA /* FsprgStoreParameters.h in Headers */,
+				C0FEBCE616EB8A0500233CDA /* FsprgFileDownload.h in Headers */,
+				C0FEBCE816EB8A0500233CDA /* FsprgFulfillment.h in Headers */,
+				C0FEBCEA16EB8A0500233CDA /* FsprgLicense.h in Headers */,
+				C0FEBCEC16EB8A0500233CDA /* FsprgOrder.h in Headers */,
+				C0FEBCEE16EB8A0500233CDA /* FsprgOrderItem.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C091A98516EB8C0400146C6D /* FSEmbeddedStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C091A99016EB8C0400146C6D /* Build configuration list for PBXNativeTarget "FSEmbeddedStore" */;
+			buildPhases = (
+				C091A98216EB8C0400146C6D /* Sources */,
+				C091A98316EB8C0400146C6D /* Frameworks */,
+				C091A98416EB8C0400146C6D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FSEmbeddedStore;
+			productName = FSEmbeddedStore;
+			productReference = C091A98616EB8C0400146C6D /* FSEmbeddedStore.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		C0FEBCAF16EB89A000233CDA /* FsprgEmbeddedStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0FEBCC316EB89A000233CDA /* Build configuration list for PBXNativeTarget "FsprgEmbeddedStore" */;
+			buildPhases = (
+				C0FEBCAB16EB89A000233CDA /* Sources */,
+				C0FEBCAC16EB89A000233CDA /* Frameworks */,
+				C0FEBCAD16EB89A000233CDA /* Headers */,
+				C0FEBCAE16EB89A000233CDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FsprgEmbeddedStore;
+			productName = FSEmbeddedStore;
+			productReference = C0FEBCB016EB89A000233CDA /* FsprgEmbeddedStore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0FEBCA516EB895E00233CDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = C0FEBCA816EB895E00233CDA /* Build configuration list for PBXProject "FSEmbeddedStore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C0FEBCA416EB895E00233CDA;
+			productRefGroup = C0FEBCB116EB89A000233CDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0FEBCAF16EB89A000233CDA /* FsprgEmbeddedStore */,
+				C091A98516EB8C0400146C6D /* FSEmbeddedStore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0FEBCAE16EB89A000233CDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0FEBCBE16EB89A000233CDA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C091A98216EB8C0400146C6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C091A99316EB8C0E00146C6D /* FsprgEmbeddedStoreController.m in Sources */,
+				C091A99616EB8C0E00146C6D /* FsprgOrderDocumentRepresentation.m in Sources */,
+				C091A99816EB8C0E00146C6D /* FsprgOrderView.m in Sources */,
+				C091A99A16EB8C0E00146C6D /* FsprgStoreParameters.m in Sources */,
+				C091A9A416EB8CA200146C6D /* FsprgFileDownload.m in Sources */,
+				C091A9A616EB8CA200146C6D /* FsprgFulfillment.m in Sources */,
+				C091A9A816EB8CA200146C6D /* FsprgLicense.m in Sources */,
+				C091A9AA16EB8CA200146C6D /* FsprgOrder.m in Sources */,
+				C091A9AC16EB8CA200146C6D /* FsprgOrderItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0FEBCAB16EB89A000233CDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0FEBCDE16EB8A0400233CDA /* FsprgEmbeddedStoreController.m in Sources */,
+				C0FEBCE116EB8A0400233CDA /* FsprgOrderDocumentRepresentation.m in Sources */,
+				C0FEBCE316EB8A0500233CDA /* FsprgOrderView.m in Sources */,
+				C0FEBCE516EB8A0500233CDA /* FsprgStoreParameters.m in Sources */,
+				C0FEBCE716EB8A0500233CDA /* FsprgFileDownload.m in Sources */,
+				C0FEBCE916EB8A0500233CDA /* FsprgFulfillment.m in Sources */,
+				C0FEBCEB16EB8A0500233CDA /* FsprgLicense.m in Sources */,
+				C0FEBCED16EB8A0500233CDA /* FsprgOrder.m in Sources */,
+				C0FEBCEF16EB8A0500233CDA /* FsprgOrderItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C0FEBCBC16EB89A000233CDA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0FEBCBD16EB89A000233CDA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C091A98E16EB8C0400146C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FSEmbeddedStore/FSEmbeddedStore-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C091A98F16EB8C0400146C6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FSEmbeddedStore/FSEmbeddedStore-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C0FEBCA916EB895E00233CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				INSTALL_PATH = "@rpath";
+			};
+			name = Debug;
+		};
+		C0FEBCAA16EB895E00233CDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				INSTALL_PATH = "@rpath";
+			};
+			name = Release;
+		};
+		C0FEBCC416EB89A000233CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FSEmbeddedStore/FSEmbeddedStore-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "FSEmbeddedStore/FSEmbeddedStore-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		C0FEBCC516EB89A000233CDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FSEmbeddedStore/FSEmbeddedStore-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "FSEmbeddedStore/FSEmbeddedStore-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C091A99016EB8C0400146C6D /* Build configuration list for PBXNativeTarget "FSEmbeddedStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C091A98E16EB8C0400146C6D /* Debug */,
+				C091A98F16EB8C0400146C6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0FEBCA816EB895E00233CDA /* Build configuration list for PBXProject "FSEmbeddedStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0FEBCA916EB895E00233CDA /* Debug */,
+				C0FEBCAA16EB895E00233CDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0FEBCC316EB89A000233CDA /* Build configuration list for PBXNativeTarget "FsprgEmbeddedStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0FEBCC416EB89A000233CDA /* Debug */,
+				C0FEBCC516EB89A000233CDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0FEBCA516EB895E00233CDA /* Project object */;
+}
