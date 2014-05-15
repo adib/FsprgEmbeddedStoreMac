@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C0207E01191FEDDB00ECA1FB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0207E00191FEDDB00ECA1FB /* Security.framework */; };
 		C025C57116EC174500197671 /* FSEmbeddedStore-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = C025C57016EC174500197671 /* FSEmbeddedStore-Prefix.pch */; };
 		C091A98716EB8C0400146C6D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0FEBCB316EB89A000233CDA /* Cocoa.framework */; };
 		C091A99116EB8C0E00146C6D /* FsprgEmbeddedStore.h in Headers */ = {isa = PBXBuildFile; fileRef = C0FEBCC716EB8A0400233CDA /* FsprgEmbeddedStore.h */; };
@@ -56,6 +57,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C0207E00191FEDDB00ECA1FB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		C025C57016EC174500197671 /* FSEmbeddedStore-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FSEmbeddedStore-Prefix.pch"; sourceTree = "<group>"; };
 		C091A98616EB8C0400146C6D /* FSEmbeddedStore.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = FSEmbeddedStore.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0FEBCB016EB89A000233CDA /* FsprgEmbeddedStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FsprgEmbeddedStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0207E01191FEDDB00ECA1FB /* Security.framework in Frameworks */,
 				C091A9A216EB8C9600146C6D /* WebKit.framework in Frameworks */,
 				C091A98716EB8C0400146C6D /* Cocoa.framework in Frameworks */,
 			);
@@ -133,6 +136,7 @@
 		C0FEBCB216EB89A000233CDA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C0207E00191FEDDB00ECA1FB /* Security.framework */,
 				C0FEBCB316EB89A000233CDA /* Cocoa.framework */,
 				C0FEBCB516EB89A000233CDA /* Other Frameworks */,
 			);
